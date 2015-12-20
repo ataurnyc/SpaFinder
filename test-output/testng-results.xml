@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Testing Report" duration-ms="171" started-at="2015-12-14T00:13:47Z" finished-at="2015-12-14T00:13:47Z">
+    <groups>
+    </groups>
+    <test name="First Test" duration-ms="41" started-at="2015-12-14T00:13:47Z" finished-at="2015-12-14T00:13:47Z">
+      <class name="LearnTestNG.TestOne">
+        <test-method status="PASS" signature="test1()[pri:0, instance:LearnTestNG.TestOne@2d3fcdbd]" name="test1" duration-ms="18" started-at="2015-12-13T19:13:47Z" finished-at="2015-12-13T19:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- LearnTestNG.TestOne -->
+    </test> <!-- First Test -->
+    <test name="Second Test" duration-ms="5" started-at="2015-12-14T00:13:47Z" finished-at="2015-12-14T00:13:47Z">
+      <class name="LearnTestNG.TestOne2">
+        <test-method status="PASS" signature="test2()[pri:0, instance:LearnTestNG.TestOne2@153f5a29]" name="test2" duration-ms="2" started-at="2015-12-13T19:13:47Z" finished-at="2015-12-13T19:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- LearnTestNG.TestOne2 -->
+    </test> <!-- Second Test -->
+    <test name="FirstTESTNG" duration-ms="8" started-at="2015-12-14T00:13:47Z" finished-at="2015-12-14T00:13:47Z">
+      <class name="firstTestNG.LearnAnnotation">
+        <test-method status="PASS" signature="bdConnection()[pri:0, instance:firstTestNG.LearnAnnotation@6574b225]" name="bdConnection" is-config="true" duration-ms="2" started-at="2015-12-13T19:13:47Z" finished-at="2015-12-13T19:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bdConnection -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:firstTestNG.LearnAnnotation@6574b225]" name="openBrowser" is-config="true" duration-ms="0" started-at="2015-12-13T19:13:47Z" finished-at="2015-12-13T19:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="logOutTest()[pri:0, instance:firstTestNG.LearnAnnotation@6574b225]" name="logOutTest" duration-ms="1" started-at="2015-12-13T19:13:47Z" finished-at="2015-12-13T19:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutTest -->
+        <test-method status="PASS" signature="bdClose()[pri:0, instance:firstTestNG.LearnAnnotation@6574b225]" name="bdClose" is-config="true" duration-ms="1" started-at="2015-12-13T19:13:47Z" finished-at="2015-12-13T19:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bdClose -->
+      </class> <!-- firstTestNG.LearnAnnotation -->
+    </test> <!-- FirstTESTNG -->
+    <test name="Data Provider Test" duration-ms="17" started-at="2015-12-14T00:13:47Z" finished-at="2015-12-14T00:13:47Z">
+      <class name="firstTestNG.DataProviderTest">
+        <test-method status="PASS" signature="testSignup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:firstTestNG.DataProviderTest@1efbd816]" name="testSignup" duration-ms="3" started-at="2015-12-13T19:13:47Z" data-provider="getData" finished-at="2015-12-13T19:13:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hobaib]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hobaib@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignup -->
+        <test-method status="PASS" signature="testSignup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:firstTestNG.DataProviderTest@1efbd816]" name="testSignup" duration-ms="3" started-at="2015-12-13T19:13:47Z" data-provider="getData" finished-at="2015-12-13T19:13:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hasan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[34532]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hasan@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignup -->
+        <test-method status="PASS" signature="testSignup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:firstTestNG.DataProviderTest@1efbd816]" name="testSignup" duration-ms="1" started-at="2015-12-13T19:13:47Z" data-provider="getData" finished-at="2015-12-13T19:13:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[67853]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anik@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignup -->
+      </class> <!-- firstTestNG.DataProviderTest -->
+    </test> <!-- Data Provider Test -->
+  </suite> <!-- Automation Testing Report -->
+</testng-results>

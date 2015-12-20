@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation Testing Report">
+ 
+ <test name="First Test">
+  <classes>
+   <class name="LearnTestNG.TestOne"></class>
+   </classes>
+   </test>
+   
+   <test name="Second Test">
+   <classes>
+   <class name="LearnTestNG.TestOne2"></class>
+   </classes>
+   </test>
+   
+   <test name="FirstTESTNG">
+   <classes>
+   <class name="firstTestNG.LearnAnnotation"></class>
+  </classes>
+ </test>
+ 
+ 	<test name = "Data Provider Test">
+ 	<classes>
+ 	<class name = "firstTestNG.DataProviderTest"></class>
+ 	</classes>
+ 	
+ 	</test>
+ 
+ 
+</suite>
